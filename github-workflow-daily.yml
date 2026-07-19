@@ -1,0 +1,31 @@
+name: Daily MLB picks
+
+on:
+  schedule:
+    - cron: "0 14 * * *"   # 14:00 UTC = 10:00 AM Eastern (9 AM Central)
+  workflow_dispatch: {}     # lets you trigger it manually from the phone too
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the predictor for today's slate
+        run: python predict.py --all --out today
+
+      - name: Save results back to the repository
+        run: |
+          git config user.name "mlb-predictor-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A today picks_log.csv || true
+          git add calibration.html 2>/dev/null || true
+          git commit -m "Daily picks $(date -u +%F)" || echo "nothing new"
+          git push
