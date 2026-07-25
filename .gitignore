@@ -1,0 +1,9 @@
+data_cache/
+__pycache__/
+*.pyc
+run.log
+slate_*/
+.DS_Store
+prediction_*.html
+.env
+*.env
