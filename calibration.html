@@ -1,0 +1,101 @@
+<!doctype html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Model calibration</title><style>
+:root{--bg:#0f1520;--card:#1a2332;--ink:#e8edf5;--dim:#8b98ac;--line:#2a3648;
+--green:#37c977;--red:#e5605e;--accent:#4da3ff;--gold:#e8b23e}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,'Segoe UI',Roboto,Helvetica,sans-serif;
+background:var(--bg);color:var(--ink);line-height:1.55;padding:24px}
+.wrap{max-width:960px;margin:0 auto}
+h1{font-size:26px;margin-bottom:2px}
+h2{font-size:18px;margin:26px 0 10px}
+.sub{color:var(--dim);font-size:14px;margin-bottom:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;
+padding:18px 20px;margin-bottom:14px}
+.pick{display:flex;justify-content:space-between;align-items:center;gap:16px;
+flex-wrap:wrap}
+.pick .team{font-size:22px;font-weight:700}
+.pick .prob{font-size:38px;font-weight:800;color:var(--gold)}
+.bar{height:14px;border-radius:7px;background:#2a3648;overflow:hidden;
+margin:12px 0 6px;display:flex}
+.bar .h{background:var(--accent)} .bar .a{background:var(--red)}
+.legend{display:flex;justify-content:space-between;font-size:13px;color:var(--dim)}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px}
+th{color:var(--dim);text-align:left;font-weight:600;font-size:12px;
+text-transform:uppercase;letter-spacing:.04em}
+th,td{padding:6px 10px;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:none}
+td.r,th.r{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--green)} .neg{color:var(--red)} .zero{color:var(--dim)}
+.expl{color:var(--ink);font-size:14px;margin-top:10px}
+.factor-head{display:flex;justify-content:space-between;align-items:baseline}
+.contrib{font-weight:700;font-size:15px}
+details{margin-top:10px}
+summary{cursor:pointer;color:var(--accent);font-size:13px}
+.small{font-size:12.5px;color:var(--dim)}
+.meth p{color:var(--dim);font-size:13.5px;margin-bottom:8px}
+.badge{display:inline-block;background:#243248;border-radius:6px;
+padding:2px 8px;font-size:12px;color:var(--dim);margin-right:6px}
+</style></head><body>
+<div class="wrap"><h1>Model calibration</h1>
+<div class="sub">Settled picks: 45 &middot; record 23-22
+(51.1%) &middot; model expected 28.1 wins
+(62.4%). Blue bar = actual win rate, red bar = predicted.</div>
+<div class="card"><table>
+<tr><th>Confidence band</th><th class="r">Picks</th><th class="r">W-L</th>
+<th class="r">Actual win%</th><th class="r">Predicted</th>
+<th class="r">Diff</th><th>Read</th></tr><tr><td>50-55%</td><td class='r'>11</td>
+<td class='r'>6-5</td>
+<td class='r'>54.5%</td><td class='r'>53.0%</td>
+<td class='r pos'>+1.5%</td><td class='small'>small sample</td></tr>
+<tr><td colspan='7' style='padding:0 10px 10px'>
+<div class='bar' style='height:8px;margin:0'>
+<div class='h' style='width:54%'></div></div>
+<div class='bar' style='height:8px;margin:2px 0 0'>
+<div class='a' style='width:53%'></div></div></td></tr><tr><td>55-60%</td><td class='r'>12</td>
+<td class='r'>5-7</td>
+<td class='r'>41.7%</td><td class='r'>57.6%</td>
+<td class='r neg'>-16.0%</td><td class='small'>small sample</td></tr>
+<tr><td colspan='7' style='padding:0 10px 10px'>
+<div class='bar' style='height:8px;margin:0'>
+<div class='h' style='width:41%'></div></div>
+<div class='bar' style='height:8px;margin:2px 0 0'>
+<div class='a' style='width:57%'></div></div></td></tr><tr><td>60-65%</td><td class='r'>3</td>
+<td class='r'>2-1</td>
+<td class='r'>66.7%</td><td class='r'>61.3%</td>
+<td class='r pos'>+5.3%</td><td class='small'>small sample</td></tr>
+<tr><td colspan='7' style='padding:0 10px 10px'>
+<div class='bar' style='height:8px;margin:0'>
+<div class='h' style='width:66%'></div></div>
+<div class='bar' style='height:8px;margin:2px 0 0'>
+<div class='a' style='width:61%'></div></div></td></tr><tr><td>65-70%</td><td class='r'>11</td>
+<td class='r'>5-6</td>
+<td class='r'>45.5%</td><td class='r'>68.0%</td>
+<td class='r neg'>-22.5%</td><td class='small'>small sample</td></tr>
+<tr><td colspan='7' style='padding:0 10px 10px'>
+<div class='bar' style='height:8px;margin:0'>
+<div class='h' style='width:45%'></div></div>
+<div class='bar' style='height:8px;margin:2px 0 0'>
+<div class='a' style='width:67%'></div></div></td></tr><tr><td>70-75%</td><td class='r'>4</td>
+<td class='r'>3-1</td>
+<td class='r'>75.0%</td><td class='r'>71.9%</td>
+<td class='r pos'>+3.1%</td><td class='small'>small sample</td></tr>
+<tr><td colspan='7' style='padding:0 10px 10px'>
+<div class='bar' style='height:8px;margin:0'>
+<div class='h' style='width:75%'></div></div>
+<div class='bar' style='height:8px;margin:2px 0 0'>
+<div class='a' style='width:71%'></div></div></td></tr><tr><td>75%+</td><td class='r'>4</td>
+<td class='r'>2-2</td>
+<td class='r'>50.0%</td><td class='r'>78.4%</td>
+<td class='r neg'>-28.4%</td><td class='small'>small sample</td></tr>
+<tr><td colspan='7' style='padding:0 10px 10px'>
+<div class='bar' style='height:8px;margin:0'>
+<div class='h' style='width:50%'></div></div>
+<div class='bar' style='height:8px;margin:2px 0 0'>
+<div class='a' style='width:78%'></div></div></td></tr></table>
+<p class="small" style="margin-top:10px">A band is only meaningful with 30+
+picks; ~100+ before trusting a pattern. If most bands sit below their
+predicted line, lower GLOBAL_SHRINK in mlb_predictor/config.py (1.0 &rarr;
+~0.75). If one specific band lags with a real sample, bring picks_log.csv
+back to Claude for a fitted correction.</p>
+</div></div></body></html>
