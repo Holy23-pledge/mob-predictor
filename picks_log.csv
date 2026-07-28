@@ -69,6 +69,6 @@ date,gamePk,away,home,pick,win_prob,p_home,confidence,top_factor,actual_winner,c
 2026-07-28,824003,Houston Astros,Los Angeles Angels,Los Angeles Angels,0.569,0.569,moderate,Home-field advantage,,,-110,-110,0.5000,,,,,,,
 2026-07-28,824243,Baltimore Orioles,Detroit Tigers,Detroit Tigers,0.695,0.695,strong,Starting pitching matchup,,,-145,118,0.5634,,,,,,,
 2026-07-28,824489,Cleveland Guardians,Cincinnati Reds,Cleveland Guardians,0.572,0.428,moderate,Injury report,,,105,-125,0.4675,,,,,,,
-2026-07-28,824490,Cleveland Guardians,Cincinnati Reds,Cincinnati Reds,0.557,0.557,moderate,Starting pitching matchup,,,,,,,,,,,,
+2026-07-28,824490,Cleveland Guardians,Cincinnati Reds,Cincinnati Reds,0.553,0.553,moderate,Starting pitching matchup,,,,,,,,,,,,
 2026-07-28,824569,New York Yankees,Chicago White Sox,New York Yankees,0.521,0.479,slight,Starting pitching matchup,,,115,-140,0.4436,,,,,,,
 2026-07-28,824976,Boston Red Sox,Athletics,Boston Red Sox,0.633,0.367,strong,Season performance,,,125,-150,0.4255,,,,,,,
