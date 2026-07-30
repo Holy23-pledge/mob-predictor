@@ -1,0 +1,130 @@
+<!doctype html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Boston Red Sox @ Athletics — prediction</title>
+<style>
+:root{--bg:#0f1520;--card:#1a2332;--ink:#e8edf5;--dim:#8b98ac;--line:#2a3648;
+--green:#37c977;--red:#e5605e;--accent:#4da3ff;--gold:#e8b23e}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,'Segoe UI',Roboto,Helvetica,sans-serif;
+background:var(--bg);color:var(--ink);line-height:1.55;padding:24px}
+.wrap{max-width:960px;margin:0 auto}
+h1{font-size:26px;margin-bottom:2px}
+h2{font-size:18px;margin:26px 0 10px}
+.sub{color:var(--dim);font-size:14px;margin-bottom:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;
+padding:18px 20px;margin-bottom:14px}
+.pick{display:flex;justify-content:space-between;align-items:center;gap:16px;
+flex-wrap:wrap}
+.pick .team{font-size:22px;font-weight:700}
+.pick .prob{font-size:38px;font-weight:800;color:var(--gold)}
+.bar{height:14px;border-radius:7px;background:#2a3648;overflow:hidden;
+margin:12px 0 6px;display:flex}
+.bar .h{background:var(--accent)} .bar .a{background:var(--red)}
+.legend{display:flex;justify-content:space-between;font-size:13px;color:var(--dim)}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px}
+th{color:var(--dim);text-align:left;font-weight:600;font-size:12px;
+text-transform:uppercase;letter-spacing:.04em}
+th,td{padding:6px 10px;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:none}
+td.r,th.r{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:var(--green)} .neg{color:var(--red)} .zero{color:var(--dim)}
+.expl{color:var(--ink);font-size:14px;margin-top:10px}
+.factor-head{display:flex;justify-content:space-between;align-items:baseline}
+.contrib{font-weight:700;font-size:15px}
+details{margin-top:10px}
+summary{cursor:pointer;color:var(--accent);font-size:13px}
+.small{font-size:12.5px;color:var(--dim)}
+.meth p{color:var(--dim);font-size:13.5px;margin-bottom:8px}
+.badge{display:inline-block;background:#243248;border-radius:6px;
+padding:2px 8px;font-size:12px;color:var(--dim);margin-right:6px}
+</style></head><body><div class="wrap">
+<h1>Boston Red Sox @ Athletics</h1>
+<div class="sub">Sutter Health Park · 2026-07-31T01:40:00Z
+ · night game
+ · SP: Sonny Gray vs Mason Barnett
+ · generated 2026-07-30 13:55</div>
+
+<div class="card pick">
+  <div><div class="small">MODEL PICK (strong confidence)</div>
+  <div class="team">Boston Red Sox</div>
+  <span class='badge'>94°F, wind 11 mph SW</span><span class="badge">park factor 104</span>
+  <span class="badge">roof: Open</span></div>
+  <div class="prob">67.4%</div>
+</div>
+<div class="card">
+  <div class="bar"><div class="h" style="width:32.6%"></div>
+  <div class="a" style="width:67.4%"></div></div>
+  <div class="legend"><span>Athletics 32.6%</span>
+  <span>Boston Red Sox 67.4%</span></div>
+</div>
+
+<h2>Factor summary</h2>
+<div class="card">
+<table><tr><th>Factor</th><th class="r">Effect on win prob.</th>
+<th class="r">Log-odds edge</th></tr>
+<tr><td>Season performance</td><td class='r neg'>-8.2 pp</td><td class='r neg'>-0.356</td></tr><tr><td>Home-field advantage</td><td class='r pos'>+1.9 pp</td><td class='r pos'>+0.086</td></tr><tr><td>Starting pitching matchup</td><td class='r neg'>-11.0 pp</td><td class='r neg'>-0.470</td></tr><tr><td>Batter vs pitcher history</td><td class='r neg'>-1.4 pp</td><td class='r neg'>-0.062</td></tr><tr><td>Lineup vs pitch-mix profile</td><td class='r pos'>+2.9 pp</td><td class='r pos'>+0.136</td></tr><tr><td>Weather &amp; wind</td><td class='r pos'>+0.2 pp</td><td class='r pos'>+0.011</td></tr><tr><td>Time of day (night game)</td><td class='r pos'>+0.1 pp</td><td class='r pos'>+0.003</td></tr><tr><td>Stadium: Sutter Health Park</td><td class='r pos'>+0.1 pp</td><td class='r pos'>+0.003</td></tr><tr><td>Injury report</td><td class='r neg'>-1.8 pp</td><td class='r neg'>-0.080</td></tr>
+<tr><td><b>Total → P(Athletics win)</b></td>
+<td class="r"><b>32.6%</b></td>
+<td class="r"><b>-0.728</b></td></tr></table>
+<p class="small" style="margin-top:8px">pp = percentage points of win
+probability. Positive favors the home team, negative the visitors.</p>
+</div>
+
+<h2>Factor-by-factor breakdown</h2>
+<div class="card">
+<div class="factor-head"><h3>Season performance</h3>
+<span class="contrib neg">-8.2 pp</span></div>
+<table><tr><th></th><th class='r'>Home</th><th class='r'>Away</th></tr><tr><td>Record</td><td class='r'>45-63</td><td class='r'>56-51</td></tr><tr><td>Runs scored / allowed</td><td class='r'>476/604</td><td class='r'>449/400</td></tr><tr><td>Pythagorean W%</td><td class='r'>0.393</td><td class='r'>0.553</td></tr></table><p class="expl">Season quality via run differential. Home is 45-63 (RS 476, RA 604, Pythagorean 0.393); Away is 56-51 (RS 449, RA 400, Pythagorean 0.553). The away side has been the stronger run-differential team.</p></div>
+<div class="card">
+<div class="factor-head"><h3>Home-field advantage</h3>
+<span class="contrib pos">+1.9 pp</span></div>
+<table><tr><th></th><th class='r'>Home</th><th class='r'>Away</th></tr><tr><td>Home record</td><td class='r'>21-32</td><td class='r'>—</td></tr><tr><td>Road record</td><td class='r'>—</td><td class='r'>31-22</td></tr><tr><td>Regressed split W%</td><td class='r'>0.420</td><td class='r'>0.565</td></tr></table><p class="expl">MLB home teams win ~54% of games (baseline edge). On top of that: home club is 21-32 at home this year, and the visitors are 31-22 on the road. The visitors travel well, trimming the usual home edge.</p></div>
+<div class="card">
+<div class="factor-head"><h3>Starting pitching matchup</h3>
+<span class="contrib neg">-11.0 pp</span></div>
+<table><tr><th></th><th class='r'>Home</th><th class='r'>Away</th></tr><tr><td>Starter</td><td class='r'>Mason Barnett</td><td class='r'>Sonny Gray</td></tr><tr><td>ERA</td><td class='r'>4.74</td><td class='r'>2.78</td></tr><tr><td>FIP</td><td class='r'>5.50</td><td class='r'>3.74</td></tr><tr><td>IP</td><td class='r'>24.7</td><td class='r'>106.7</td></tr><tr><td>K / BB</td><td class='r'>23/13</td><td class='r'>93/28</td></tr></table><p class="expl">Mason Barnett (home): 4.74 ERA, FIP 5.50 over 25 IP. Sonny Gray (away): 2.78 ERA, FIP 3.74 over 107 IP. FIP gap of 1.76 runs/9 over a ~6-inning start is worth ~1.17 runs, favoring the away starter. </p></div>
+<div class="card">
+<div class="factor-head"><h3>Batter vs pitcher history</h3>
+<span class="contrib neg">-1.4 pp</span></div>
+<table><tr><th></th><th class='r'>Home</th><th class='r'>Away</th></tr><tr><td>Lineup PA vs opposing starter</td><td class='r'>30</td><td class='r'>16</td></tr><tr><td>Weighted OPS in matchup</td><td class='r'>0.669</td><td class='r'>1.008</td></tr><tr><td>Sample weight</td><td class='r'>30%</td><td class='r'>19%</td></tr></table><p class="expl">Career history: home lineup vs Sonny Gray: 30 PA, weighted OPS 0.669; away lineup vs Mason Barnett: 16 PA, weighted OPS 1.008 (league ~0.715). Samples are shrunk toward league average by PA (weights 30% / 19%). Away hitters have the better track record in this matchup.</p><details><summary>Home hitters vs Sonny Gray (career)</summary><table><tr><th>Batter</th><th class='r'>PA</th><th class='r'>AVG</th><th class='r'>OPS</th><th class='r'>HR</th><th class='r'>K</th></tr><tr><td>Jeff McNeil</td><td class='r'>8</td><td class='r'>.250</td><td class='r'>.625</td><td class='r'>0</td><td class='r'>1</td></tr><tr><td>Lawrence Butler</td><td class='r'>7</td><td class='r'>.200</td><td class='r'>.629</td><td class='r'>0</td><td class='r'>0</td></tr><tr><td>Jacob Wilson</td><td class='r'>4</td><td class='r'>.667</td><td class='r'>1.334</td><td class='r'>0</td><td class='r'>0</td></tr><tr><td>Jonah Heim</td><td class='r'>4</td><td class='r'>.250</td><td class='r'>.500</td><td class='r'>0</td><td class='r'>2</td></tr><tr><td>Donovan Walton</td><td class='r'>4</td><td class='r'>.333</td><td class='r'>.833</td><td class='r'>0</td><td class='r'>2</td></tr><tr><td>Tyler Soderstrom</td><td class='r'>3</td><td class='r'>.000</td><td class='r'>.000</td><td class='r'>0</td><td class='r'>1</td></tr></table></details><details><summary>Away hitters vs Mason Barnett (career)</summary><table><tr><th>Batter</th><th class='r'>PA</th><th class='r'>AVG</th><th class='r'>OPS</th><th class='r'>HR</th><th class='r'>K</th></tr><tr><td>Jarren Duran</td><td class='r'>6</td><td class='r'>.600</td><td class='r'>1.467</td><td class='r'>0</td><td class='r'>1</td></tr><tr><td>Masataka Yoshida</td><td class='r'>4</td><td class='r'>.333</td><td class='r'>.833</td><td class='r'>0</td><td class='r'>1</td></tr><tr><td>Ceddanne Rafaela</td><td class='r'>2</td><td class='r'>.500</td><td class='r'>1.000</td><td class='r'>0</td><td class='r'>1</td></tr><tr><td>Carlos Narváez</td><td class='r'>2</td><td class='r'>.000</td><td class='r'>.000</td><td class='r'>0</td><td class='r'>0</td></tr><tr><td>Connor Wong</td><td class='r'>2</td><td class='r'>.500</td><td class='r'>1.000</td><td class='r'>0</td><td class='r'>0</td></tr></table></details></div>
+<div class="card">
+<div class="factor-head"><h3>Lineup vs pitch-mix profile</h3>
+<span class="contrib pos">+2.9 pp</span></div>
+<table><tr><th></th><th class='r'>Home</th><th class='r'>Away</th></tr><tr><td>Projected wOBA vs opposing arsenal</td><td class='r'>0.351</td><td class='r'>0.308</td></tr><tr><td>vs league average</td><td class='r'>+0.041</td><td class='r'>-0.002</td></tr></table><p class="expl">Each lineup is scored against the opposing starter&#x27;s pitch mix and velocity (Statcast). Home lineup projects to a 0.351 wOBA vs Sonny Gray&#x27;s arsenal; away lineup projects to 0.308 vs Mason Barnett&#x27;s (league ~0.310). The home lineup profiles better against this pitch mix.</p><details><summary>Home lineup vs Sonny Gray&#x27;s arsenal</summary><table><tr><th>Pitch</th><th class='r'>Usage</th><th class='r'>Velo</th><th class='r'>Lineup wOBA</th><th class='r'>Velo adj</th><th class='r'>Sample PA</th></tr><tr><td>Sinker</td><td class='r'>21%</td><td class='r'>92.1</td><td class='r'>0.335</td><td class='r'>+0.006</td><td class='r'>543</td></tr><tr><td>Cutter</td><td class='r'>20%</td><td class='r'>88.3</td><td class='r'>0.375</td><td class='r'>+0.000</td><td class='r'>201</td></tr><tr><td>Sweeper</td><td class='r'>19%</td><td class='r'>85.0</td><td class='r'>0.339</td><td class='r'>+0.000</td><td class='r'>161</td></tr><tr><td>Four-seam FB</td><td class='r'>18%</td><td class='r'>91.7</td><td class='r'>0.364</td><td class='r'>+0.007</td><td class='r'>744</td></tr><tr><td>Curveball</td><td class='r'>16%</td><td class='r'>79.7</td><td class='r'>0.349</td><td class='r'>+0.000</td><td class='r'>137</td></tr><tr><td>Changeup</td><td class='r'>5%</td><td class='r'>86.1</td><td class='r'>0.282</td><td class='r'>+0.000</td><td class='r'>307</td></tr><tr><td>Slow Curve</td><td class='r'>0%</td><td class='r'>74.1</td><td class='r'>0.349</td><td class='r'>+0.000</td><td class='r'>137</td></tr></table></details><details><summary>Away lineup vs Mason Barnett&#x27;s arsenal</summary><table><tr><th>Pitch</th><th class='r'>Usage</th><th class='r'>Velo</th><th class='r'>Lineup wOBA</th><th class='r'>Velo adj</th><th class='r'>Sample PA</th></tr><tr><td>Four-seam FB</td><td class='r'>42%</td><td class='r'>95.0</td><td class='r'>0.338</td><td class='r'>-0.006</td><td class='r'>875</td></tr><tr><td>Slider</td><td class='r'>26%</td><td class='r'>87.5</td><td class='r'>0.297</td><td class='r'>+0.000</td><td class='r'>394</td></tr><tr><td>Sweeper</td><td class='r'>16%</td><td class='r'>83.4</td><td class='r'>0.277</td><td class='r'>+0.000</td><td class='r'>188</td></tr><tr><td>Curveball</td><td class='r'>13%</td><td class='r'>79.3</td><td class='r'>0.297</td><td class='r'>+0.000</td><td class='r'>199</td></tr><tr><td>Changeup</td><td class='r'>3%</td><td class='r'>85.8</td><td class='r'>0.295</td><td class='r'>+0.000</td><td class='r'>338</td></tr></table></details></div>
+<div class="card">
+<div class="factor-head"><h3>Weather &amp; wind</h3>
+<span class="contrib pos">+0.2 pp</span></div>
+<table><tr><th></th><th class='r'>Home</th><th class='r'>Away</th></tr><tr><td>HR per PA</td><td class='r'>0.032</td><td class='r'>0.025</td></tr><tr><td>Temp / wind out</td><td class='r'>94°F</td><td class='r'>+10 mph</td></tr><tr><td>Run environment</td><td class='r'>110%</td><td class='r'>110%</td></tr></table><p class="expl">First pitch ~2026-07-30 18:40: 94°F, wind 11 mph from the SW — blowing OUT to center at 10 mph. Estimated run environment 110% of normal. Precip chance 0%. A livelier ball favors the more power-based lineup (home).</p></div>
+<div class="card">
+<div class="factor-head"><h3>Time of day (night game)</h3>
+<span class="contrib pos">+0.1 pp</span></div>
+<table><tr><th></th><th class='r'>Home</th><th class='r'>Away</th></tr><tr><td>Night record</td><td class='r'>33-40</td><td class='r'>35-27</td></tr><tr><td>Regressed W%</td><td class='r'>0.461</td><td class='r'>0.551</td></tr></table><p class="expl">This is a night game. Home club is 33-40 in night games this year; visitors are 35-27. Relative to overall level neither team shows a real split.</p></div>
+<div class="card">
+<div class="factor-head"><h3>Stadium: Sutter Health Park</h3>
+<span class="contrib pos">+0.1 pp</span></div>
+<table><tr><th></th><th class='r'>Home</th><th class='r'>Away</th></tr><tr><td>Park factor</td><td class='r'>104</td><td class='r'>104</td></tr><tr><td>Team OPS</td><td class='r'>0.725</td><td class='r'>0.708</td></tr><tr><td>Record at venue</td><td class='r'>21-32</td><td class='r'>—</td></tr></table><p class="expl">Sutter Health Park is a strong hitters&#x27; park (park factor 104; 100 = neutral). Home offense OPS 0.725 vs away 0.708 (league ~0.715) — the park doesn&#x27;t meaningfully favor either lineup. Home club is 21-32 in this building this season.</p></div>
+<div class="card">
+<div class="factor-head"><h3>Injury report</h3>
+<span class="contrib neg">-1.8 pp</span></div>
+<table><tr><th></th><th class='r'>Home</th><th class='r'>Away</th></tr><tr><td>Players on IL</td><td class='r'>11</td><td class='r'>11</td></tr><tr><td>Weighted impact</td><td class='r'>0.46</td><td class='r'>0.38</td></tr></table><p class="expl">Injured list: home club has 11 players on the IL (impact score 0.46), visitors have 11 (impact score 0.38). Impact weights each injured player by current-season playing time. The home club is more shorthanded.</p><details><summary>Home injured list</summary><table><tr><th>Player</th><th>Pos</th><th>Status</th><th class='r'>Usage</th><th class='r'>Impact</th></tr><tr><td>Brent Rooker</td><td>DH</td><td>Injured 60-Day</td><td class='r'>203 PA</td><td class='r'>0.06</td></tr><tr><td>Brooks Kriske</td><td>P</td><td>Injured 60-Day</td><td class='r'>3 IP</td><td class='r'>0.02</td></tr><tr><td>Denzel Clarke</td><td>CF</td><td>Injured 60-Day</td><td class='r'>60 PA</td><td class='r'>0.02</td></tr><tr><td>Gunnar Hoglund</td><td>P</td><td>Injured 60-Day</td><td class='r'>no playing time</td><td class='r'>0.02</td></tr><tr><td>J.T. Ginn</td><td>P</td><td>Injured 15-Day</td><td class='r'>109 IP</td><td class='r'>0.06</td></tr><tr><td>Joshua Kuroda-Grauer</td><td>3B</td><td>Injured 10-Day</td><td class='r'>62 PA</td><td class='r'>0.02</td></tr><tr><td>Justin Sterner</td><td>P</td><td>Injured 15-Day</td><td class='r'>43 IP</td><td class='r'>0.04</td></tr><tr><td>Luis Severino</td><td>P</td><td>Injured 60-Day</td><td class='r'>63 IP</td><td class='r'>0.06</td></tr><tr><td>Mark Leiter Jr.</td><td>P</td><td>Injured 15-Day</td><td class='r'>34 IP</td><td class='r'>0.04</td></tr><tr><td>Shea Langeliers</td><td>C</td><td>Injured 10-Day</td><td class='r'>416 PA</td><td class='r'>0.06</td></tr><tr><td>Zack Gelof</td><td>3B</td><td>Injured 10-Day</td><td class='r'>247 PA</td><td class='r'>0.06</td></tr></table></details><details><summary>Away injured list</summary><table><tr><th>Player</th><th>Pos</th><th>Status</th><th class='r'>Usage</th><th class='r'>Impact</th></tr><tr><td>Curtis Mead</td><td>3B</td><td>Injured 10-Day</td><td class='r'>329 PA</td><td class='r'>0.06</td></tr><tr><td>Garrett Crochet</td><td>P</td><td>Injured 60-Day</td><td class='r'>30 IP</td><td class='r'>0.04</td></tr><tr><td>Isiah Kiner-Falefa</td><td>2B</td><td>Injured 10-Day</td><td class='r'>132 PA</td><td class='r'>0.04</td></tr><tr><td>Johan Oviedo</td><td>P</td><td>Injured 60-Day</td><td class='r'>4 IP</td><td class='r'>0.02</td></tr><tr><td>Kutter Crawford</td><td>P</td><td>Injured 60-Day</td><td class='r'>no playing time</td><td class='r'>0.02</td></tr><tr><td>Marcelo Mayer</td><td>2B</td><td>Injured 10-Day</td><td class='r'>228 PA</td><td class='r'>0.06</td></tr><tr><td>Roman Anthony</td><td>LF</td><td>Injured 60-Day</td><td class='r'>130 PA</td><td class='r'>0.04</td></tr><tr><td>Tanner Houck</td><td>P</td><td>Injured 60-Day</td><td class='r'>no playing time</td><td class='r'>0.02</td></tr><tr><td>Trevor Story</td><td>SS</td><td>Injured 60-Day</td><td class='r'>176 PA</td><td class='r'>0.04</td></tr><tr><td>Triston Casas</td><td>1B</td><td>Injured 60-Day</td><td class='r'>no playing time</td><td class='r'>0.02</td></tr><tr><td>Zack Kelly</td><td>P</td><td>Injured 60-Day</td><td class='r'>16 IP</td><td class='r'>0.02</td></tr></table></details></div>
+
+<h2>Projected lineups</h2>
+<div class="card"><details><summary>Projected lineup — Athletics (top 9 by PA)</summary><table><tr><th>Player</th><th class='r'>PA</th><th class='r'>OPS</th><th class='r'>HR</th></tr><tr><td>Nick Kurtz</td><td class='r'>426</td><td class='r'>0.890</td><td class='r'>21</td></tr><tr><td>Tyler Soderstrom</td><td class='r'>398</td><td class='r'>0.810</td><td class='r'>17</td></tr><tr><td>Jeff McNeil</td><td class='r'>325</td><td class='r'>0.642</td><td class='r'>4</td></tr><tr><td>Lawrence Butler</td><td class='r'>311</td><td class='r'>0.626</td><td class='r'>6</td></tr><tr><td>Jacob Wilson</td><td class='r'>291</td><td class='r'>0.698</td><td class='r'>7</td></tr><tr><td>Carlos Cortes</td><td class='r'>253</td><td class='r'>0.762</td><td class='r'>7</td></tr><tr><td>Henry Bolte</td><td class='r'>238</td><td class='r'>0.648</td><td class='r'>3</td></tr><tr><td>Jonah Heim</td><td class='r'>224</td><td class='r'>0.721</td><td class='r'>11</td></tr><tr><td>Donovan Walton</td><td class='r'>125</td><td class='r'>0.859</td><td class='r'>3</td></tr></table></details><details><summary>Projected lineup — Boston Red Sox (top 9 by PA)</summary><table><tr><th>Player</th><th class='r'>PA</th><th class='r'>OPS</th><th class='r'>HR</th></tr><tr><td>Wilyer Abreu</td><td class='r'>455</td><td class='r'>0.749</td><td class='r'>15</td></tr><tr><td>Jarren Duran</td><td class='r'>425</td><td class='r'>0.595</td><td class='r'>13</td></tr><tr><td>Ceddanne Rafaela</td><td class='r'>423</td><td class='r'>0.764</td><td class='r'>11</td></tr><tr><td>Willson Contreras</td><td class='r'>413</td><td class='r'>0.931</td><td class='r'>22</td></tr><tr><td>Caleb Durbin</td><td class='r'>370</td><td class='r'>0.707</td><td class='r'>10</td></tr><tr><td>Masataka Yoshida</td><td class='r'>238</td><td class='r'>0.719</td><td class='r'>4</td></tr><tr><td>Andruw Monasterio</td><td class='r'>204</td><td class='r'>0.779</td><td class='r'>6</td></tr><tr><td>Carlos Narváez</td><td class='r'>189</td><td class='r'>0.544</td><td class='r'>3</td></tr><tr><td>Connor Wong</td><td class='r'>159</td><td class='r'>0.733</td><td class='r'>2</td></tr></table></details></div>
+
+<h2>Methodology</h2>
+<div class="card meth">
+<p><b>Model:</b> P(home win) = sigmoid(Σ factor edges). Each factor produces a
+log-odds edge from public data, is multiplied by a fixed weight, and capped.
+Weights are documented in config.py.</p>
+<p><b>Data:</b> MLB Stats API (schedule, standings, splits, BvP, pitch
+arsenals, rosters/IL), Baseball Savant leaderboards (Statcast batter
+performance vs pitch type), Open-Meteo (game-time forecast). Park factors are
+FanGraphs-style 3-year runs factors compiled in config.py.</p>
+<p><b>Key ideas:</b> Pythagorean run differential; FIP starter comparison;
+sample-shrunk BvP; lineup vs the starter's pitch mix & velocity (Statcast
+wOBA by pitch type); wind decomposed along the park's center-field bearing;
+injuries weighted by playing time.</p>
+<p><b>Disclaimer:</b> for entertainment/research. Baseball is noisy — the best
+teams lose ~40% of their games. Not betting advice.</p>
+</div>
+</div></body></html>
