@@ -126,5 +126,5 @@ date,gamePk,away,home,pick,win_prob,p_home,confidence,top_factor,actual_winner,c
 2026-08-01,824485,Pittsburgh Pirates,Cincinnati Reds,Pittsburgh Pirates,0.624,0.376,strong,Starting pitching matchup,,,100,-120,0.4783,,,,,,,
 2026-08-01,824649,New York Yankees,Chicago Cubs,New York Yankees,0.596,0.404,moderate,Starting pitching matchup,,,-120,100,0.5217,,,,,,,
 2026-08-01,824808,Philadelphia Phillies,Baltimore Orioles,Philadelphia Phillies,0.577,0.423,moderate,Starting pitching matchup,,,120,-145,0.4344,,,,,,,
-2026-08-01,824890,Washington Nationals,Atlanta Braves,Atlanta Braves,0.626,0.626,strong,Starting pitching matchup,,,-185,150,0.6187,,,,,,,
+2026-08-01,824890,Washington Nationals,Atlanta Braves,Atlanta Braves,0.627,0.627,strong,Starting pitching matchup,,,-185,150,0.6187,,,,,,,
 2026-08-01,824972,Detroit Tigers,Athletics,Detroit Tigers,0.563,0.437,moderate,Season performance,,,145,-175,0.3908,,,,,,,
