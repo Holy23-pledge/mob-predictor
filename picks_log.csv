@@ -181,18 +181,33 @@ date,gamePk,away,home,pick,win_prob,p_home,confidence,top_factor,actual_winner,c
 2026-08-05,824806,Los Angeles Angels,Baltimore Orioles,Baltimore Orioles,0.512,0.512,slight,Home-field advantage,Baltimore Orioles,1,-125,105,0.5325,,,,,,,
 2026-08-05,824889,Miami Marlins,Atlanta Braves,Atlanta Braves,0.599,0.599,moderate,Home-field advantage,Atlanta Braves,1,-125,105,0.5325,,,,,,,
 2026-08-05,825052,San Diego Padres,Arizona Diamondbacks,San Diego Padres,0.579,0.421,moderate,Starting pitching matchup,Arizona Diamondbacks,0,105,-130,0.4632,,,,,,,
-2026-08-07,822699,Cincinnati Reds,Washington Nationals,Washington Nationals,0.652,0.652,strong,Starting pitching matchup,,,-118,-102,0.5174,,,,,,,
-2026-08-07,822863,Baltimore Orioles,Texas Rangers,Baltimore Orioles,0.544,0.456,slight,Starting pitching matchup,,,-150,125,0.5745,-150,125,0.5745,,,,
-2026-08-07,823024,Colorado Rockies,St. Louis Cardinals,St. Louis Cardinals,0.744,0.744,strong,Starting pitching matchup,,,-155,125,0.5776,-160,135,0.5912,,,,
-2026-08-07,823103,Tampa Bay Rays,Seattle Mariners,Seattle Mariners,0.517,0.517,slight,Home-field advantage,,,-118,-102,0.5174,-120,100,0.5217,,,,
-2026-08-07,823191,Detroit Tigers,San Francisco Giants,Detroit Tigers,0.569,0.431,moderate,Home-field advantage,,,110,-135,0.4532,,,,,,,
-2026-08-07,823266,Houston Astros,San Diego Padres,San Diego Padres,0.544,0.544,slight,Starting pitching matchup,,,-130,105,0.5368,-130,105,0.5368,,,,
-2026-08-07,823349,New York Mets,Pittsburgh Pirates,Pittsburgh Pirates,0.624,0.624,strong,Lineup vs pitch-mix profile,,,-150,125,0.5745,-150,125,0.5745,,,,
-2026-08-07,823428,Toronto Blue Jays,Philadelphia Phillies,Philadelphia Phillies,0.691,0.691,strong,Starting pitching matchup,,,-210,170,0.6465,-220,180,0.6581,,,,
-2026-08-07,823515,Atlanta Braves,New York Yankees,New York Yankees,0.669,0.669,strong,Starting pitching matchup,,,-145,118,0.5634,-165,135,0.5940,,,,
-2026-08-07,823750,Minnesota Twins,Milwaukee Brewers,Milwaukee Brewers,0.736,0.736,strong,Starting pitching matchup,,,-175,145,0.6092,-170,140,0.6018,,,,
-2026-08-07,823836,Los Angeles Angels,Miami Marlins,Miami Marlins,0.615,0.615,moderate,Home-field advantage,,,-170,140,0.6018,-170,140,0.6018,,,,
-2026-08-07,824081,Chicago Cubs,Kansas City Royals,Kansas City Royals,0.541,0.541,slight,Season performance,,,145,-175,0.3908,,,,,,,
-2026-08-07,824566,Cleveland Guardians,Chicago White Sox,Cleveland Guardians,0.541,0.459,slight,Starting pitching matchup,,,105,-125,0.4675,115,-140,0.4436,,,,
-2026-08-07,824727,Athletics,Boston Red Sox,Boston Red Sox,0.702,0.702,strong,Season performance,,,-250,200,0.6818,-275,220,0.7012,,,,
-2026-08-07,825051,Los Angeles Dodgers,Arizona Diamondbacks,Los Angeles Dodgers,0.653,0.347,strong,Season performance,,,150,-185,0.3813,145,-175,0.3908,,,,
+2026-08-07,822699,Cincinnati Reds,Washington Nationals,Washington Nationals,0.652,0.652,strong,Starting pitching matchup,Washington Nationals,1,-118,-102,0.5174,,,,,,,
+2026-08-07,822863,Baltimore Orioles,Texas Rangers,Baltimore Orioles,0.544,0.456,slight,Starting pitching matchup,Texas Rangers,0,-150,125,0.5745,-150,125,0.5745,,+0.0000,-0.1185,-1.000
+2026-08-07,823024,Colorado Rockies,St. Louis Cardinals,St. Louis Cardinals,0.744,0.744,strong,Starting pitching matchup,St. Louis Cardinals,1,-155,125,0.5776,-160,135,0.5912,,+0.0136,+0.1528,0.645
+2026-08-07,823103,Tampa Bay Rays,Seattle Mariners,Seattle Mariners,0.517,0.517,slight,Home-field advantage,Tampa Bay Rays,0,-118,-102,0.5174,-120,100,0.5217,,+0.0044,-0.0047,-1.000
+2026-08-07,823191,Detroit Tigers,San Francisco Giants,Detroit Tigers,0.569,0.431,moderate,Home-field advantage,San Francisco Giants,0,110,-135,0.4532,,,,,,,
+2026-08-07,823266,Houston Astros,San Diego Padres,San Diego Padres,0.544,0.544,slight,Starting pitching matchup,Houston Astros,0,-130,105,0.5368,-130,105,0.5368,,+0.0000,+0.0072,-1.000
+2026-08-07,823349,New York Mets,Pittsburgh Pirates,Pittsburgh Pirates,0.624,0.624,strong,Lineup vs pitch-mix profile,New York Mets,0,-150,125,0.5745,-150,125,0.5745,,+0.0000,+0.0495,-1.000
+2026-08-07,823428,Toronto Blue Jays,Philadelphia Phillies,Philadelphia Phillies,0.691,0.691,strong,Starting pitching matchup,Toronto Blue Jays,0,-210,170,0.6465,-220,180,0.6581,,+0.0116,+0.0329,-1.000
+2026-08-07,823515,Atlanta Braves,New York Yankees,New York Yankees,0.669,0.669,strong,Starting pitching matchup,New York Yankees,1,-145,118,0.5634,-165,135,0.5940,,+0.0307,+0.0750,0.690
+2026-08-07,823750,Minnesota Twins,Milwaukee Brewers,Milwaukee Brewers,0.736,0.736,strong,Starting pitching matchup,Minnesota Twins,0,-175,145,0.6092,-170,140,0.6018,,-0.0075,+0.1342,-1.000
+2026-08-07,823836,Los Angeles Angels,Miami Marlins,Miami Marlins,0.615,0.615,moderate,Home-field advantage,Los Angeles Angels,0,-170,140,0.6018,-170,140,0.6018,,+0.0000,+0.0132,-1.000
+2026-08-07,824081,Chicago Cubs,Kansas City Royals,Kansas City Royals,0.541,0.541,slight,Season performance,Chicago Cubs,0,145,-175,0.3908,,,,,,,
+2026-08-07,824566,Cleveland Guardians,Chicago White Sox,Cleveland Guardians,0.541,0.459,slight,Starting pitching matchup,Cleveland Guardians,1,105,-125,0.4675,115,-140,0.4436,,+0.0239,+0.0154,0.800
+2026-08-07,824727,Athletics,Boston Red Sox,Boston Red Sox,0.702,0.702,strong,Season performance,Boston Red Sox,1,-250,200,0.6818,-275,220,0.7012,,+0.0194,+0.0008,0.400
+2026-08-07,825051,Los Angeles Dodgers,Arizona Diamondbacks,Los Angeles Dodgers,0.653,0.347,strong,Season performance,Arizona Diamondbacks,0,150,-185,0.3813,145,-175,0.3908,,-0.0095,-0.0438,-1.000
+2026-08-08,822701,Cincinnati Reds,Washington Nationals,Washington Nationals,0.561,0.561,moderate,Season performance,,,125,-150,0.4255,,,,,,,
+2026-08-08,822864,Baltimore Orioles,Texas Rangers,Texas Rangers,0.625,0.625,strong,Home-field advantage,,,-150,125,0.5745,,,,,,,
+2026-08-08,823021,Colorado Rockies,St. Louis Cardinals,St. Louis Cardinals,0.636,0.636,strong,Injury report,,,-160,135,0.5912,,,,,,,
+2026-08-08,823102,Tampa Bay Rays,Seattle Mariners,Seattle Mariners,0.608,0.608,moderate,Home-field advantage,,,-118,-102,0.5174,,,,,,,
+2026-08-08,823188,Detroit Tigers,San Francisco Giants,San Francisco Giants,0.512,0.512,slight,Home-field advantage,,,-102,-118,0.4826,,,,,,,
+2026-08-08,823267,Houston Astros,San Diego Padres,San Diego Padres,0.531,0.531,slight,Home-field advantage,,,-120,100,0.5217,,,,,,,
+2026-08-08,823348,New York Mets,Pittsburgh Pirates,Pittsburgh Pirates,0.580,0.580,moderate,Home-field advantage,,,-125,105,0.5325,,,,,,,
+2026-08-08,823426,Toronto Blue Jays,Philadelphia Phillies,Philadelphia Phillies,0.734,0.734,strong,Starting pitching matchup,,,-170,140,0.6018,,,,,,,
+2026-08-08,823514,Atlanta Braves,New York Yankees,Atlanta Braves,0.524,0.476,slight,Starting pitching matchup,,,118,-145,0.4366,,,,,,,
+2026-08-08,823752,Minnesota Twins,Milwaukee Brewers,Milwaukee Brewers,0.595,0.595,moderate,Season performance,,,-145,120,0.5656,,,,,,,
+2026-08-08,823834,Los Angeles Angels,Miami Marlins,Miami Marlins,0.579,0.579,moderate,Home-field advantage,,,-160,135,0.5912,,,,,,,
+2026-08-08,824079,Chicago Cubs,Kansas City Royals,Chicago Cubs,0.573,0.427,moderate,Season performance,,,140,-170,0.3982,,,,,,,
+2026-08-08,824565,Cleveland Guardians,Chicago White Sox,Chicago White Sox,0.504,0.504,slight,Starting pitching matchup,,,105,-130,0.4632,,,,,,,
+2026-08-08,824726,Athletics,Boston Red Sox,Boston Red Sox,0.694,0.694,strong,Season performance,,,-275,220,0.7012,,,,,,,
+2026-08-08,825049,Los Angeles Dodgers,Arizona Diamondbacks,Los Angeles Dodgers,0.626,0.374,strong,Season performance,,,145,-175,0.3908,,,,,,,
