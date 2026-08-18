@@ -331,10 +331,10 @@ date,gamePk,away,home,pick,win_prob,p_home,confidence,top_factor,actual_winner,c
 2026-08-17,824641,Chicago White Sox,Chicago Cubs,Chicago Cubs,0.560,0.560,moderate,Home-field advantage,Chicago Cubs,1,-170,140,0.6018,,,,,,,
 2026-08-17,824725,Arizona Diamondbacks,Boston Red Sox,Boston Red Sox,0.669,0.669,strong,Starting pitching matchup,Boston Red Sox,1,-150,125,0.5745,-170,140,0.6018,18.1,+0.0273,+0.0672,0.667
 2026-08-18,822859,Washington Nationals,Texas Rangers,Washington Nationals,0.548,0.452,slight,Home-field advantage,,,-160,135,0.5912,,,,,,,
-2026-08-18,822938,Toronto Blue Jays,Tampa Bay Rays,Tampa Bay Rays,0.689,0.689,strong,Injury report,,,-140,115,0.5564,,,,,,,
+2026-08-18,822938,Toronto Blue Jays,Tampa Bay Rays,Tampa Bay Rays,0.685,0.685,strong,Injury report,,,-140,115,0.5564,,,,,,,
 2026-08-18,823341,Detroit Tigers,Pittsburgh Pirates,Pittsburgh Pirates,0.592,0.592,moderate,Injury report,,,-145,118,0.5634,,,,,,,
-2026-08-18,823423,Miami Marlins,Philadelphia Phillies,Philadelphia Phillies,0.646,0.646,strong,Starting pitching matchup,,,-225,185,0.6636,,,,,,,
-2026-08-18,823586,San Diego Padres,New York Mets,New York Mets,0.581,0.581,moderate,Home-field advantage,,,-105,-115,0.4892,,,,,,,
+2026-08-18,823423,Miami Marlins,Philadelphia Phillies,Philadelphia Phillies,0.645,0.645,strong,Starting pitching matchup,,,-225,185,0.6636,,,,,,,
+2026-08-18,823586,San Diego Padres,New York Mets,New York Mets,0.580,0.580,moderate,Home-field advantage,,,-105,-115,0.4892,,,,,,,
 2026-08-18,823667,Atlanta Braves,Minnesota Twins,Atlanta Braves,0.584,0.416,moderate,Season performance,,,105,-130,0.4632,,,,,,,
 2026-08-18,823749,Seattle Mariners,Milwaukee Brewers,Milwaukee Brewers,0.650,0.650,strong,Season performance,,,-155,125,0.5776,,,,,,,
 2026-08-18,824075,Athletics,Kansas City Royals,Kansas City Royals,0.657,0.657,strong,Home-field advantage,,,-160,135,0.5912,,,,,,,
