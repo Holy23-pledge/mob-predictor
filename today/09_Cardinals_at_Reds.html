@@ -42,12 +42,12 @@ padding:2px 8px;font-size:12px;color:var(--dim);margin-right:6px}
 <div class="sub">Great American Ball Park · 2026-08-19T22:40:00Z
  · night game
  · SP: Matthew Liberatore vs Chase Burns
- · generated 2026-08-19 14:40</div>
+ · generated 2026-08-19 16:42</div>
 
 <div class="card pick">
   <div><div class="small">MODEL PICK (slight confidence)</div>
   <div class="team">St. Louis Cardinals</div>
-  <span class='badge'>87°F, wind 9 mph SSW</span><span class="badge">park factor 104</span>
+  <span class='badge'>81°F, wind 3 mph SW</span><span class="badge">park factor 104</span>
   <span class="badge">roof: Open</span></div>
   <div class="prob">51.0%</div>
 </div>
@@ -62,10 +62,10 @@ padding:2px 8px;font-size:12px;color:var(--dim);margin-right:6px}
 <div class="card">
 <table><tr><th>Factor</th><th class="r">Effect on win prob.</th>
 <th class="r">Log-odds edge</th></tr>
-<tr><td>Season performance</td><td class='r neg'>-4.5 pp</td><td class='r neg'>-0.180</td></tr><tr><td>Home-field advantage</td><td class='r pos'>+3.1 pp</td><td class='r pos'>+0.125</td></tr><tr><td>Starting pitching matchup</td><td class='r pos'>+9.3 pp</td><td class='r pos'>+0.376</td></tr><tr><td>Batter vs pitcher history</td><td class='r neg'>-1.0 pp</td><td class='r neg'>-0.039</td></tr><tr><td>Lineup vs pitch-mix profile</td><td class='r neg'>-0.4 pp</td><td class='r neg'>-0.016</td></tr><tr><td>Weather &amp; wind</td><td class='r pos'>+0.1 pp</td><td class='r pos'>+0.005</td></tr><tr><td>Time of day (night game)</td><td class='r neg'>-2.2 pp</td><td class='r neg'>-0.089</td></tr><tr><td>Stadium: Great American Ball Park</td><td class='r neg'>-0.0 pp</td><td class='r zero'>-0.000</td></tr><tr><td>Injury report</td><td class='r neg'>-5.5 pp</td><td class='r neg'>-0.220</td></tr>
+<tr><td>Season performance</td><td class='r neg'>-4.5 pp</td><td class='r neg'>-0.180</td></tr><tr><td>Home-field advantage</td><td class='r pos'>+3.1 pp</td><td class='r pos'>+0.125</td></tr><tr><td>Starting pitching matchup</td><td class='r pos'>+9.2 pp</td><td class='r pos'>+0.376</td></tr><tr><td>Batter vs pitcher history</td><td class='r neg'>-1.0 pp</td><td class='r neg'>-0.039</td></tr><tr><td>Lineup vs pitch-mix profile</td><td class='r neg'>-0.4 pp</td><td class='r neg'>-0.016</td></tr><tr><td>Weather &amp; wind</td><td class='r pos'>+0.1 pp</td><td class='r pos'>+0.004</td></tr><tr><td>Time of day (night game)</td><td class='r neg'>-2.2 pp</td><td class='r neg'>-0.089</td></tr><tr><td>Stadium: Great American Ball Park</td><td class='r neg'>-0.0 pp</td><td class='r zero'>-0.000</td></tr><tr><td>Injury report</td><td class='r neg'>-5.5 pp</td><td class='r neg'>-0.220</td></tr>
 <tr><td><b>Total → P(Cincinnati Reds win)</b></td>
 <td class="r"><b>49.0%</b></td>
-<td class="r"><b>-0.039</b></td></tr></table>
+<td class="r"><b>-0.040</b></td></tr></table>
 <p class="small" style="margin-top:8px">pp = percentage points of win
 probability. Positive favors the home team, negative the visitors.</p>
 </div>
@@ -81,7 +81,7 @@ probability. Positive favors the home team, negative the visitors.</p>
 <table><tr><th></th><th class='r'>Home</th><th class='r'>Away</th></tr><tr><td>Home record</td><td class='r'>31-35</td><td class='r'>—</td></tr><tr><td>Road record</td><td class='r'>—</td><td class='r'>33-28</td></tr><tr><td>Regressed split W%</td><td class='r'>0.476</td><td class='r'>0.532</td></tr></table><p class="expl">MLB home teams win ~54% of games (baseline edge). On top of that: home club is 31-35 at home this year, and the visitors are 33-28 on the road. The visitors travel well, trimming the usual home edge.</p></div>
 <div class="card">
 <div class="factor-head"><h3>Starting pitching matchup</h3>
-<span class="contrib pos">+9.3 pp</span></div>
+<span class="contrib pos">+9.2 pp</span></div>
 <table><tr><th></th><th class='r'>Home</th><th class='r'>Away</th></tr><tr><td>Starter</td><td class='r'>Chase Burns</td><td class='r'>Matthew Liberatore</td></tr><tr><td>ERA</td><td class='r'>2.47</td><td class='r'>5.07</td></tr><tr><td>FIP</td><td class='r'>3.21</td><td class='r'>4.62</td></tr><tr><td>IP</td><td class='r'>131.0</td><td class='r'>119.0</td></tr><tr><td>K / BB</td><td class='r'>151/46</td><td class='r'>116/44</td></tr></table><p class="expl">Chase Burns (home): 2.47 ERA, FIP 3.21 over 131 IP. Matthew Liberatore (away): 5.07 ERA, FIP 4.62 over 119 IP. FIP gap of 1.41 runs/9 over a ~6-inning start is worth ~0.94 runs, favoring the home starter. </p></div>
 <div class="card">
 <div class="factor-head"><h3>Batter vs pitcher history</h3>
@@ -94,7 +94,7 @@ probability. Positive favors the home team, negative the visitors.</p>
 <div class="card">
 <div class="factor-head"><h3>Weather &amp; wind</h3>
 <span class="contrib pos">+0.1 pp</span></div>
-<table><tr><th></th><th class='r'>Home</th><th class='r'>Away</th></tr><tr><td>HR per PA</td><td class='r'>0.035</td><td class='r'>0.027</td></tr><tr><td>Temp / wind out</td><td class='r'>87°F</td><td class='r'>+0 mph</td></tr><tr><td>Run environment</td><td class='r'>104%</td><td class='r'>104%</td></tr></table><p class="expl">First pitch ~2026-08-19 18:40: 87°F, wind 9 mph from the SSW — roughly neutral (crosswind/calm). Estimated run environment 104% of normal. Precip chance 11%. A livelier ball favors the more power-based lineup (home).</p></div>
+<table><tr><th></th><th class='r'>Home</th><th class='r'>Away</th></tr><tr><td>HR per PA</td><td class='r'>0.035</td><td class='r'>0.027</td></tr><tr><td>Temp / wind out</td><td class='r'>81°F</td><td class='r'>+1 mph</td></tr><tr><td>Run environment</td><td class='r'>103%</td><td class='r'>103%</td></tr></table><p class="expl">First pitch ~2026-08-19 18:40: 81°F, wind 3 mph from the SW — roughly neutral (crosswind/calm). Estimated run environment 103% of normal. Precip chance 11%. A livelier ball favors the more power-based lineup (home).</p></div>
 <div class="card">
 <div class="factor-head"><h3>Time of day (night game)</h3>
 <span class="contrib neg">-2.2 pp</span></div>
