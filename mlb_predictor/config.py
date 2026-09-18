@@ -54,7 +54,7 @@ LEAGUE = {
 }
 
 # Factor weights: multipliers on each factor's raw log-odds edge, with caps.
-WEIGHTS = {
+WEIGHTS = {    "pitching":   dict(w=0.27, cap=0.35),  
     "season":     dict(w=0.55, cap=0.60),
     "home_away":  dict(w=0.35, cap=0.30, base_hfa=0.16),
     "pitching":   dict(w=0.27, cap=0.50),
@@ -68,7 +68,7 @@ WEIGHTS = {
 
 # Multiplies the final summed log-odds. Lower toward ~0.75 if the pick log
 # shows systematic overconfidence (needs a few hundred settled picks).
-GLOBAL_SHRINK = 1.0
+GLOBAL_SHRINK = .70
 
 SHRINK = {
     "team_wpct_games": 16,
