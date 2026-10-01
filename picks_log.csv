@@ -889,4 +889,4 @@ date,gamePk,away,home,pick,win_prob,p_home,confidence,top_factor,actual_winner,c
 2026-09-30,849842,Chicago Cubs,San Diego Padres,San Diego Padres,0.548,0.548,slight,Starting pitching matchup,San Diego Padres,1,-135,115,0.5526,,,,,,,
 2026-09-30,849846,Chicago White Sox,Houston Astros,Chicago White Sox,0.515,0.485,slight,Home-field advantage,Chicago White Sox,1,-150,125,0.5745,,,,,,,
 2026-09-30,849848,Boston Red Sox,New York Yankees,New York Yankees,0.618,0.618,moderate,Starting pitching matchup,New York Yankees,1,-140,120,0.5620,,,,,,,
-2026-10-01,849844,Philadelphia Phillies,Atlanta Braves,Atlanta Braves,0.562,0.562,moderate,Home-field advantage,,,-105,-115,0.4892,,,,,,,
+2026-10-01,849844,Philadelphia Phillies,Atlanta Braves,Atlanta Braves,0.636,0.636,strong,Batter vs pitcher history,,,-105,-115,0.4892,,,,,,,
