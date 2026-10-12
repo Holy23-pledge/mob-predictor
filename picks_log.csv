@@ -906,4 +906,6 @@ date,gamePk,away,home,pick,win_prob,p_home,confidence,top_factor,actual_winner,c
 2026-10-07,849838,Tampa Bay Rays,New York Yankees,New York Yankees,0.649,0.649,strong,Starting pitching matchup,Tampa Bay Rays,0,-165,140,0.5991,,,,,,,
 2026-10-08,849832,Cleveland Guardians,Chicago White Sox,Chicago White Sox,0.560,0.560,moderate,Home-field advantage,Cleveland Guardians,0,-102,-118,0.4826,,,,,,,
 2026-10-10,849831,Chicago White Sox,Cleveland Guardians,Cleveland Guardians,0.550,0.550,moderate,Home-field advantage,Cleveland Guardians,1,-135,115,0.5526,,,,,,,
-2026-10-11,849809,Los Angeles Dodgers,Milwaukee Brewers,Milwaukee Brewers,0.570,0.570,moderate,Home-field advantage,,,-115,-105,0.5108,,,,,,,
+2026-10-11,849809,Los Angeles Dodgers,Milwaukee Brewers,Milwaukee Brewers,0.570,0.570,moderate,Home-field advantage,Milwaukee Brewers,1,-115,-105,0.5108,,,,,,,
+2026-10-12,849812,Los Angeles Dodgers,Milwaukee Brewers,Milwaukee Brewers,0.551,0.551,moderate,Home-field advantage,,,115,-140,0.4436,,,,,,,
+2026-10-12,849820,Cleveland Guardians,Tampa Bay Rays,Tampa Bay Rays,0.622,0.622,strong,Starting pitching matchup,,,-170,140,0.6018,,,,,,,
