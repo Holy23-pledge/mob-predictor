@@ -909,4 +909,5 @@ date,gamePk,away,home,pick,win_prob,p_home,confidence,top_factor,actual_winner,c
 2026-10-11,849809,Los Angeles Dodgers,Milwaukee Brewers,Milwaukee Brewers,0.570,0.570,moderate,Home-field advantage,Milwaukee Brewers,1,-115,-105,0.5108,,,,,,,
 2026-10-12,849812,Los Angeles Dodgers,Milwaukee Brewers,Milwaukee Brewers,0.551,0.551,moderate,Home-field advantage,Milwaukee Brewers,1,115,-140,0.4436,,,,,,,
 2026-10-12,849820,Cleveland Guardians,Tampa Bay Rays,Tampa Bay Rays,0.622,0.622,strong,Starting pitching matchup,Cleveland Guardians,0,-170,140,0.6018,,,,,,,
-2026-10-13,849813,Cleveland Guardians,Tampa Bay Rays,Cleveland Guardians,0.520,0.480,slight,Starting pitching matchup,,,-135,115,0.5526,,,,,,,
+2026-10-13,849813,Cleveland Guardians,Tampa Bay Rays,Cleveland Guardians,0.520,0.480,slight,Starting pitching matchup,Tampa Bay Rays,0,-135,115,0.5526,,,,,,,
+2026-10-14,849811,Milwaukee Brewers,Los Angeles Dodgers,Los Angeles Dodgers,0.657,0.657,strong,Starting pitching matchup,,,-185,150,0.6187,,,,,,,
